@@ -3,7 +3,7 @@ FROM gitpod/workspace-full
 USER gitpod
 
 # Install DEPS
-RUN sudo apt-get install \
+RUN sudo apt-get update && sudo apt-get install -y \
   btrfs-tools \
   git \
   golang-go \
