@@ -17,7 +17,7 @@ RUN sudo apt-get update && sudo apt-get install -y \
   libgpgme-dev \
   libgpg-error-dev \
   libprotobuf-dev \
-#   libprotobuf-c0-dev \
+  libprotobuf-c-dev \
   libseccomp-dev \
   libselinux1-dev \
   libsystemd-dev \
